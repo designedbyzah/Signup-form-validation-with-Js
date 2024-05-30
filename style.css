@@ -57,7 +57,7 @@ h4 {
   color: white;
   text-align: center;
   padding: 1rem 0;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   box-shadow: 0 12px 12px rgba(0, 0, 0, 0.35);
   margin-bottom: 1.5rem;
 }
@@ -70,7 +70,7 @@ h4 span {
 form {
   background-color: white;
   padding: 2rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 
 label {
@@ -145,7 +145,7 @@ button {
   background-color: var(--green);
   color: white;
   border: none;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   font-family: inherit;
   font-size: 1rem;
   text-transform: uppercase;
@@ -170,7 +170,6 @@ small span {
 @media screen and (max-width: 600px), (max-width: 999.99px) {
   .content-wrapper {
     flex-direction: column;
-    height: 90%;
     max-width: 90vw;
   }
   .content-text {
